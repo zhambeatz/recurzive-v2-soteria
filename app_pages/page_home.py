@@ -1,15 +1,14 @@
 import streamlit as st
 
 def render():
-    st.write("Choose an option below:")
     
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.info("**Misinformation Checker** ✨\n\nAnalyze claims and detect misinformation")
+        st.info("**Misinformation Checker** \n\nAnalyze claims and detect misinformation")
     with col2:
-        st.info("**Page 2** 🗂️\n\nComing Soon")
+        st.info("**Fake Profile & Campaign Identification** \n\nDetect impersonation accounts")
     with col3:
-        st.info("**Evidence & Contextualization** 🕵️\n\nReport suspicious content")
+        st.info("**Evidence & Contextualization** \n\nReport suspicious content")
 
     st.markdown("""
     ---
